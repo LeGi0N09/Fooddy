@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="assests/logo-1.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Final Bill</title>
+</head>
+
+<body>
+
+    <div class="container px-5" style="background-color: rgb(240, 240, 240);">
+        <div class="row">
+            <div class="col-auto mt-4">
+                <h1>Fooddy</h1>
+                <p class="m-0">Visat, Ahmedabad, Gujarat - 382721</p>
+                <p class="m-0">Tel : +91 884935421</p>
+                <p class="m-0">Email : info@Fooddy.com</p>
+            </div>
+        </div>
+        <div class="row my-4 border border-info p-2">
+            <div class="col-3">
+                Bill No. :
+                <script>
+                    document.write(new Date().getTime().toString().slice(8));
+                </script>
+            </div>
+            <div class="col-3">
+                Date :
+                <script>
+                    document.write(new Date().toLocaleDateString());
+                </script>
+            </div>
+            <div class="col-3">
+                Time :
+                <script>
+                    var today = new Date();
+                    var date = today.getHours() + ':' + today.getMinutes();
+                    document.write(date)
+                </script>
+            </div>
+            <div class="col-3">
+                Table : <span id="tableid">
+                    1
+                </span>
+            </div>
+        </div>
+        <div class="row" id="table">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Sr. No</th>
+                        <th scope="col">Food Item</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-1">1</td>
+                        <th scope="row">Panneer Tikka</th>
+                        <td class="col-1">180</td>
+                        <td class="col-1">1</td>
+                        <td class="col-1">180</td>
+                    </tr>
+                    <tr>
+                        <td class="col-1">2</td>
+                        <th scope="row">Flowdesk</th>
+                        <td class="col-1">157</td>
+                        <td class="col-1">5</td>
+                        <td class="col-1">785</td>
+                    </tr>
+                    <tr>
+                        <td class="col-1">3</td>
+                        <th scope="row">Starter</th>
+                        <td class="col-1">295</td>
+                        <td class="col-1">9</td>
+                        <td class="col-1">2655</td>
+                    </tr>
+                    <tr>
+                        <td class="col-1">4</td>
+                        <th scope="row"> Tandoori roti</th>
+                        <td class="col-1">25</td>
+                        <td class="col-1">7</td>
+                        <td class="col-1">175</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <h5 class="text-end">Sub Total : <span id="subtotal"></span></h5>
+            <p class="text-end">Tax ( 8% ) : <span id="tax"></span></p>
+            <h5 class="text-end">Gross Total : <span id="total"></span></h5>
+
+            <h4 class="text-center my-3">Thank You! Visit Again
+                <i class='bx bx-smile'></i>
+            </h4>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/bill.js"></script>
+</body>
+
+</html>

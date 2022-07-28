@@ -1,0 +1,111 @@
+create table managment (
+	id INT,
+	foodid INT,
+	fooditem VARCHAR(50),
+	foodprice INT,
+	quantity INT,
+	total INT,
+	tablenumber INT,
+	status INT,
+    PRIMARY KEY (ID)
+);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (1, 68, 'Donalt', 119, 6, 714, 4, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (2, 92, 'Milissent', 277, 7, 1939, 4, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (3, 48, 'Allis', 155, 4, 620, 1, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (4, 48, 'Cleopatra', 182, 5, 910, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (5, 66, 'Lane', 62, 2, 124, 3, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (6, 45, 'Ajay', 175, 5, 875, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (7, 43, 'Jaymee', 297, 5, 1485, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (8, 5, 'Anders', 154, 10, 1540, 4, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (9, 49, 'Willette', 258, 6, 1548, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (10, 13, 'Phoebe', 46, 5, 230, 2, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (11, 12, 'Maurizio', 284, 5, 1420, 6, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (12, 68, 'Arly', 58, 4, 232, 3, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (13, 71, 'Adrian', 168, 3, 504, 6, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (14, 62, 'Birdie', 69, 3, 207, 4, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (15, 2, 'Shayne', 291, 1, 291, 4, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (16, 59, 'Brandy', 161, 1, 161, 2, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (17, 12, 'Cindee', 272, 9, 2448, 7, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (18, 24, 'Hercules', 50, 9, 450, 5, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (19, 96, 'Rutherford', 36, 5, 180, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (20, 22, 'Angel', 123, 10, 1230, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (21, 66, 'Nollie', 191, 1, 191, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (22, 27, 'Xerxes', 282, 6, 1692, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (23, 63, 'Finley', 117, 6, 702, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (24, 67, 'Shell', 18, 6, 108, 7, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (25, 40, 'Romain', 61, 7, 427, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (26, 39, 'Cyrus', 191, 3, 573, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (27, 3, 'Lorri', 55, 9, 495, 6, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (28, 36, 'Shara', 208, 8, 1664, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (29, 85, 'Elwira', 258, 4, 1032, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (30, 63, 'Berte', 182, 5, 910, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (31, 83, 'Ruthanne', 218, 7, 1526, 7, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (32, 45, 'Edy', 247, 2, 494, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (33, 76, 'Rosy', 132, 1, 132, 2, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (34, 78, 'Aileen', 242, 8, 1936, 7, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (35, 2, 'Violante', 24, 5, 120, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (36, 62, 'Karola', 77, 2, 154, 6, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (37, 42, 'Bobette', 129, 10, 1290, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (38, 81, 'Petronilla', 238, 10, 2380, 6, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (39, 25, 'Tish', 62, 1, 62, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (40, 61, 'Brett', 71, 6, 426, 5, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (41, 58, 'Eberto', 59, 3, 177, 2, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (42, 37, 'Joan', 7, 8, 56, 1, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (43, 47, 'Adela', 134, 5, 670, 5, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (44, 46, 'Margalo', 69, 3, 207, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (45, 39, 'Tildi', 287, 6, 1722, 7, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (46, 30, 'Meggie', 87, 9, 783, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (47, 73, 'Federica', 76, 9, 684, 7, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (48, 95, 'Letitia', 112, 2, 224, 7, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (49, 77, 'Lucais', 228, 10, 2280, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (50, 16, 'Gregoire', 35, 2, 70, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (51, 56, 'Vin', 142, 6, 852, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (52, 95, 'Dewey', 151, 5, 755, 2, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (53, 94, 'Gayle', 131, 10, 1310, 7, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (54, 67, 'Norris', 203, 6, 1218, 6, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (55, 38, 'Burton', 263, 8, 2104, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (56, 67, 'Suzy', 294, 3, 882, 6, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (57, 72, 'Fredia', 22, 9, 198, 5, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (58, 43, 'Efren', 17, 7, 119, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (59, 100, 'Nahum', 18, 5, 90, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (60, 46, 'Emelyne', 262, 3, 786, 6, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (61, 21, 'Sabra', 30, 5, 150, 7, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (62, 91, 'Janessa', 208, 10, 2080, 7, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (63, 42, 'Babs', 138, 4, 552, 2, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (64, 18, 'Cordelia', 222, 5, 1110, 5, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (65, 38, 'Cassandra', 225, 10, 2250, 5, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (66, 48, 'Noach', 137, 9, 1233, 5, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (67, 14, 'Janel', 82, 1, 82, 1, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (68, 58, 'Susette', 112, 5, 560, 7, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (69, 26, 'Donelle', 8, 9, 72, 4, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (70, 8, 'Elita', 134, 10, 1340, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (71, 71, 'Cati', 143, 4, 572, 5, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (72, 37, 'Florrie', 32, 4, 128, 6, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (73, 93, 'Dulcine', 144, 10, 1440, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (74, 84, 'Frank', 175, 1, 175, 6, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (75, 68, 'Harland', 196, 4, 784, 2, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (76, 91, 'Nichol', 8, 10, 80, 2, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (77, 71, 'Thayne', 265, 3, 795, 3, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (78, 7, 'Rachael', 203, 1, 203, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (79, 19, 'Ag', 177, 6, 1062, 5, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (80, 14, 'Nicholas', 110, 1, 110, 7, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (81, 90, 'Bard', 282, 9, 2538, 5, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (82, 73, 'Tadeas', 262, 2, 524, 6, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (83, 36, 'Seward', 74, 10, 740, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (84, 90, 'Annabel', 219, 2, 438, 3, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (85, 1, 'Sterling', 108, 8, 864, 1, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (86, 99, 'Franciskus', 297, 7, 2079, 5, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (87, 46, 'Naoma', 60, 4, 240, 7, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (88, 12, 'Myrta', 157, 3, 471, 3, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (89, 24, 'Bail', 147, 9, 1323, 1, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (90, 38, 'Dill', 127, 1, 127, 1, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (91, 74, 'Stacey', 270, 1, 270, 6, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (92, 3, 'Merry', 190, 4, 760, 3, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (93, 48, 'Cynde', 275, 10, 2750, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (94, 90, 'Karie', 269, 10, 2690, 2, 1);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (95, 22, 'Constantina', 74, 3, 222, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (96, 21, 'Maddy', 215, 4, 860, 5, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (97, 73, 'Ceil', 122, 6, 732, 1, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (98, 89, 'Khalil', 298, 4, 1192, 4, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (99, 61, 'Giulia', 83, 6, 498, 1, 0);
+insert into managment (id, foodid, fooditem, foodprice, quantity, total, tablenumber, status) values (100, 83, 'Trudey', 50, 2, 100, 6, 1);

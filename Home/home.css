@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+/*-------- header --------*/
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+.Navbar {
+  width: 100%;
+  background-color: black;
+}
+
+/*-------- container --------*/
+body {
+  background-color: #f0f8ff;
+}
+.container {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  background-color: #d6d6d6;
+  display: flex;
+  min-height: 75vh;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  width: 1000px;
+  position: relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+.container .card {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+}
+
+.container .card .layer {
+  width: 310px;
+  height: 200px;
+  transition: 0.4s;
+}
+
+.container .card .layer.layer1 {
+  position: relative;
+  background-color: #fbba2e;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .layer.layer1.admin {
+  transform: translateY(0);
+  background-color: #fff;
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.container .card:hover .layer.layer1.cook {
+  transform: translateY(0);
+  background-color: #fff;
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.container .card:hover .layer.layer1.manager {
+  transform: translateY(0);
+  background-color: #fff;
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.container .card .layer.layer1 .content {
+  opacity: 0.4;
+  transition: 0.5s;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container .card:hover .layer.layer1 .content {
+  opacity: 1;
+}
+
+.container .card .layer.layer1 .content h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.container .card:hover .layer.layer1 .content h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.container .card .layer.layer1 .content a {
+  transition: 0.5s;
+}
+
+.container .card .layer.layer2 {
+  position: relative;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .layer.layer2 {
+  transform: translateY(0);
+}
+
+.container .card .layer.layer2 .content p,
+a {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+.container .card .layer.layer2 .content p {
+  font-weight: 600;
+}
+.container .card .layer.layer2 .content a {
+  color: #fff;
+  box-shadow: border-box;
+  /* outline: 1px dashed #333333; */
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #414549;
+  border-radius: 3px;
+}
+
+.container .card .layer.layer2 .content a:hover {
+  background-color: #fbba2e;
+  color: #fff;
+}

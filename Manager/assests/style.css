@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.Navbar {
+  background-color: black;
+}
+
+.card-header {
+  background-color: black;
+  color: white;
+}
+
+body {
+  background-color: #f0f8ff;
+}
+
+.table {
+  padding-top: 5%;
+  padding-left: 8%;
+}
+
+a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: inherit;
+  text-decoration: inherit;
+  text-align: center;
+  justify-items: center;
+}
+
+a:hover {
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: inherit;
+  /* no underline */
+}
+
+.foodtable {
+  background-color: #414549;
+  color: white;
+  font-size: large;
+  width: 200px;
+}
+
+.foodtable:hover {
+  background-color: #ffbd2f;
+  transform: scale(1.1);
+  color: #414549;
+  opacity: 0.9;
+  font-size: larger;
+}
