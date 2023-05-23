@@ -1,73 +1,110 @@
 # Restaurant Order Taking System
 
-This repository contains a Restaurant Order Taking System, developed using PHP, PHPMyAdmin, HTML, CSS, and JavaScript. The system aims to streamline the process of taking orders in a restaurant and provide an efficient way to manage customer orders.
+A simple web-based application for managing restaurant orders. This system is built using PHP, PHPMyAdmin, HTML, CSS, and JavaScript.
 
-## Features
+## 📋 Features
 
-- User-friendly interface for both customers and staff members
-- Secure user authentication and authorization system
-- Customer registration and login functionality
-- Menu management to add, edit, and delete menu items
-- Order management for customers and staff members
-- Real-time order status updates
-- Bill generation for completed orders
-- Admin dashboard for managing system settings and user roles
+- User-friendly interface for taking and managing restaurant orders.
+- Create and manage customer information.
+- Create and manage menu items and prices.
+- Place and process orders.
+- Calculate and display order totals.
+- Generate order receipts.
+- Admin panel for managing system settings and user accounts.
 
-## Technologies Used
+## 🚀 Installation
 
-- PHP: The server-side scripting language used for the backend development of the system.
-- PHPMyAdmin: The web-based database management tool used to manage the system's database.
-- HTML: The markup language used for structuring the web pages and content.
-- CSS: The styling language used for enhancing the visual appearance of the web pages.
-- JavaScript: The programming language used to add interactivity and dynamic functionality to the system.
+To run this application locally, follow these steps:
 
-## System Requirements
+1. Clone the repository:
 
-To run the Restaurant Order Taking System on your local machine, ensure that you have the following prerequisites installed:
-
-- PHP (version 7.0 or higher)
-- MySQL (or any other supported database management system)
-- Web server (such as Apache or Nginx)
-
-## Installation
-
-1. Clone the repository using the following command:
-
-   ```
+   ```shell
    git clone https://github.com/LeGi0N09/Resturant-Order-Taking-System.git
    ```
 
-2. Set up a local web server with PHP and configure it to serve the cloned repository directory as the document root.
+2. Import the database:
 
-3. Create a new MySQL database and import the provided SQL file (`restaurant_order_system.sql`) to set up the necessary tables and sample data.
+   - Open PHPMyAdmin or any other MySQL database management tool.
+   - Create a new database named `restaurant_order_system`.
+   - Import the SQL file located at `database/restaurant_order_system.sql`.
 
-4. Update the database connection settings in the `config.php` file located in the `includes` directory. Modify the following lines with your database credentials:
+3. Configure the database connection:
 
-   ```php
-   define('DB_HOST', 'localhost');
-   define('DB_USERNAME', 'your_username');
-   define('DB_PASSWORD', 'your_password');
-   define('DB_NAME', 'your_database_name');
-   ```
+   - Open the `includes/config.php` file.
+   - Update the following lines with your MySQL database credentials:
 
-5. Access the system through your web browser using the configured web server's URL.
+     ```php
+     define('DB_HOST', 'your_database_host');
+     define('DB_USER', 'your_database_username');
+     define('DB_PASS', 'your_database_password');
+     ```
 
-## Usage
+4. Start a local PHP server:
 
-- Visit the system URL in your web browser.
-- Customers can register and log in to place orders and view order status.
-- Staff members with appropriate roles can log in to manage orders, menus, and system settings through the admin dashboard.
+   - You can use the built-in PHP development server by running the following command in the project directory:
 
-## Contributing
+     ```shell
+     php -S localhost:8000
+     ```
 
-Contributions to the Restaurant Order Taking System are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
+5. Open the application in your browser:
 
-## License
+   - Go to `http://localhost:8000` in your preferred web browser.
 
-The Restaurant Order Taking System is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+## 🎯 Usage
 
-## Acknowledgements
+1. Homepage:
 
-The Restaurant Order Taking System was developed by [LeGi0N09](https://github.com/LeGi0N09). Special thanks to all the contributors and open source projects that made this system possible.
+   - The homepage displays the menu items available for ordering.
+   - Click on the "Add to Cart" button next to a menu item to add it to the cart.
+   - Use the "Cart" link in the navigation bar to view and manage the items in the cart.
 
-For any additional information or inquiries, please contact the project maintainer at [priyanshmodi9@gmail.com](mailto:priyanshmodi9@gmail.com).
+2. Cart:
+
+   - The cart page displays the items added for ordering.
+   - You can update the quantity of each item or remove items from the cart.
+   - Click on the "Place Order" button to proceed to the order confirmation page.
+
+3. Order Confirmation:
+
+   - On the order confirmation page, you can enter the customer details and review the order summary.
+   - Fill in the required fields, such as name, contact number, and address.
+   - Click on the "Confirm Order" button to finalize the order.
+
+4. Admin Panel:
+
+   - The admin panel is accessible at `http://localhost:8000/admin`.
+   - Use the default admin credentials:
+     - Username: admin
+     - Password: password123
+   - In the admin panel, you can manage menu items, view orders, and customize system settings.
+
+## 🛠️ Technologies Used
+
+- PHP
+- PHPMyAdmin
+- HTML
+- CSS
+- JavaScript
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check out the [contribution guidelines](CONTRIBUTING.md).
+
+## 👤 Author
+
+Created by [Priyansh Modi](https://github.com/LeGi0N09).
+
+## 📄 Additional Documentation
+
+For more details and information, refer to the [documentation](docs/README.md).
+
+---
+
+Thank you for using the Restaurant Order Taking System! We hope it helps streamline your restaurant's order management process. If you have any questions or need assistance, please don't hesitate to reach out.
+
+Happy ordering! 🍽️🍕🥗🍔🍣
