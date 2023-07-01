@@ -1,4 +1,4 @@
-# Restaurant Order Taking System
+# Fooddy
 
 A simple web-based application for managing restaurant orders. This system is built using PHP, PHPMyAdmin, HTML, CSS, and JavaScript.
 
@@ -18,8 +18,8 @@ To run this application locally, follow these steps:
 
 1. Clone the repository:
 
-   ```shell
-   git clone https://github.com/LeGi0N09/Resturant-Order-Taking-System.git
+   ``` shell
+   git clone https://github.com/LeGi0N09/Fooddy.git
    ```
 
 2. Import the database:
@@ -43,7 +43,7 @@ To run this application locally, follow these steps:
 
    - You can use the built-in PHP development server by running the following command in the project directory:
 
-     ```shell
+     ``` shell
      php -S localhost:8000
      ```
 
@@ -63,7 +63,7 @@ To run this application locally, follow these steps:
 
    - The cart page displays the items added for ordering.
    - You can update the quantity of each item or remove items from the cart.
-   - Click on the "Place Order" button to proceed to the order confirmation page.
+   - Click the "Place Order" button to proceed to the order confirmation page.
 
 3. Order Confirmation:
 
@@ -101,7 +101,7 @@ Created by [Priyansh Modi](https://github.com/LeGi0N09).
 
 ## 📄 Additional Documentation
 
-For more details and information, refer to the [documentation](docs/README.md).
+If you would like more details and information, please refer to the [documentation](docs/README.md).
 
 ---
 
