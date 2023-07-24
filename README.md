@@ -117,4 +117,4 @@ For more details and information, refer to the [documentation](docs/README.md).
 
 Thank you for choosing Fooddy, the Restaurant Order Management System! Experience a streamlined order process and optimize your restaurant's efficiency. Should you have any inquiries or require assistance, don't hesitate to reach out.
 
-Happy ordering! 🍽️🍕🥗🍔🍣
+Happy ordering! 🍽️🍕
