@@ -1,4 +1,4 @@
-# Fooddy - Streamlining Restaurant Order Management 🍽️🍕🥗🍔🍣
+# Fooddy - Streamlining Restaurant Order Management 🍽️🍕
 
 Fooddy is a simple and efficient web-based application designed to revolutionize restaurant order management. Developed using PHP, PHPMyAdmin, HTML, CSS, and JavaScript, this system offers a user-friendly interface for seamless handling of restaurant orders and customer information.
 
